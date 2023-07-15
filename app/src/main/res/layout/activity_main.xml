@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#3F57E0"
+        android:gravity="center"
+        android:text="Number"
+        android:textColor="#FFAB91"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:text="Family Members"
+        android:textColor="@color/purple_700"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#37B63D"
+        android:gravity="center"
+        android:text="Colors"
+        android:textColor="#5E35B1"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/phases"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Phases"
+        android:textColor="@color/teal_700"
+        android:textSize="50sp" />
+
+
+</LinearLayout>
